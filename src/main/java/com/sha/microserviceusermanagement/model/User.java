@@ -73,7 +73,7 @@ public class User implements Serializable {
         return role;
     }
 
-    public void setRole(String role) {
+    public void setRole(Role role) {
         this.role = role;
     }
 }
